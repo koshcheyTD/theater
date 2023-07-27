@@ -89,7 +89,7 @@ body{
     align-items: center;
 }
 .header{
-    background-image: url(../img/header_img.jpg);
+    background-image: url(./img/header_img.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -660,7 +660,7 @@ body{
 }
 .img1{
     position: relative;
-    background-image: url(../img/oscar.jpg);
+    background-image: url(./img/oscar.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -671,7 +671,7 @@ body{
 }
 .img2{
     position: relative;
-    background-image: url(../img/pergunt.jpg);
+    background-image: url(./img/pergunt.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -683,7 +683,7 @@ body{
 }
 .img3{
     position: relative;
-    background-image: url(../img/gold_gramofon.jpg);
+    background-image: url(./img/gold_gramofon.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -694,7 +694,7 @@ body{
 }
 .img4{
     position: relative;
-    background-image: url(../img/schelkunchik.jpg);
+    background-image: url(./img/schelkunchik.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -824,7 +824,7 @@ body{
     width: 100%;
     max-width: 69.375rem;
     height: 34.375rem;
-    background-image: url(../img/prize.jpg);
+    background-image: url(./img/prize.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

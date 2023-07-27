@@ -1348,8 +1348,12 @@ body{
     .copy {
         width: 62%;
         position: relative;
-        left: 17.3%;
+        left: 19%;
         top: -2%;
+    }
+    .copy p{
+        position: relative;
+        left: 9.5%;
     }
 }
 @media(max-width: 950px){
@@ -1455,18 +1459,23 @@ body{
     .footer_grid h2 {
         width: 50%;
         position: relative;
-        left: 9.7%;
+        left: 12.7%;
     }
     .footer_e_mail {
-        left: 3.5%;
+        left: 3.8%;
         top: -21%;
     }
     .footer_contacts {
-        left: 3.5%;
+        left: 3.7%;
         top: -103%;
     }
+    .footer_line {
+        width: 110%;
+        top: -4%;
+        position: relative;
+    }
     .copy {
-        left: 3.5%;
+        left: 3.8%;
         top: -164%;
     }
 }

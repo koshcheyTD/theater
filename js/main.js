@@ -6,8 +6,8 @@ $('.slider').slick({
     slidesToScroll: 1,
     variableWidth: true,
 
-    prevArrow: '<button class="btn btn_slider btn_prev "><img src="./style/img/prev.svg" alt="prev_arrow"></button>',
-    nextArrow: '<button class="btn btn_slider btn_next"><img src="./style/img/next.svg" alt="next_arrow"></button>',
+    prevArrow: '<button class="btn btn_slider btn_prev "><img src="/img/prev.svg" alt="prev_arrow"></button>',
+    nextArrow: '<button class="btn btn_slider btn_next"><img src="./img/next.svg" alt="next_arrow"></button>',
     })
 
 $('.part_logo').slick({
@@ -16,8 +16,8 @@ $('.part_logo').slick({
     slidesToScroll: 4,
     variableWidth: true,
     
-    prevArrow: '<button class="btn btn_slider_part btn_prev_part "><img src="./style/img/prev_part.svg" alt="prev_arrow"></button>',
-    nextArrow: '<button class="btn btn_slider_part btn_next_part"><img src="./style/img/next_part.svg" alt="next_arrow"></button>',
+    prevArrow: '<button class="btn btn_slider_part btn_prev_part "><img src="./img/prev_part.svg" alt="prev_arrow"></button>',
+    nextArrow: '<button class="btn btn_slider_part btn_next_part"><img src="./img/next_part.svg" alt="next_arrow"></button>',
 })
 })
 

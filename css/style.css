@@ -835,7 +835,7 @@ body{
 .prizes_grid{
     position: absolute;
     top: 22.9%;
-    left: 17.1%;
+    
     display: grid;
     grid-template-columns: 11.375rem 33.75rem;
     grid-template-rows: 7.4375rem 11.1875rem;
@@ -1420,9 +1420,7 @@ body{
     .prizes {
         top: 56.4%;
     }
-    .prizes_grid {
-        left: 10%;
-    }
+    
     .prizes_icon {
         padding-top: 4rem;
         left: -10.6%;
@@ -1822,8 +1820,8 @@ body{
     }
     .slider {
         top: 13%;
-        left: 15.5%;
-        width: 89%;
+        left: -30.5%;
+        width: 110%;
         height: 85%;
     }
 
@@ -1852,15 +1850,20 @@ body{
         opacity: 1;
         width: 0.4%;
         height: 1%;
-        left: -0.2%;
+        left: -1.78%;
         position: relative;
         padding-left: 26px;
+    }
+    .slick-slide {
+        
+        left: -1.78%;
+        
     }
     .img1,
     .img2,
     .img3,
     .img4{
-        left: -19%;
+        left: -223%;
     }
     .img1 h3, 
     .img2 h3, 
@@ -1888,37 +1891,47 @@ body{
     .project_svg {
         width: 41%;
         position: relative;
-        top: 4%;
+        top: 32%;
+        left: 30%;
     }
     .prizes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         top: 53.2%;
         height: 13.4rem;
     }
     .prizes_grid {
-        left: -23%;
-        width: 80%;
+        width: 100%;
+        top: 0%;
+        column-gap: 1.44rem;
+        height: 100%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
     }
     .years {
-        width: 57%;
+        width: 50%;
         height: 52%;
-        top: -6%;
-        left: 50%;
+        top: 12%;
+        left: 0%;
         font-size: 2rem;
+        align-self: flex-start;
+        padding-left: 38%;
     }
     .prizes_icon {
-        left: -9.6%;
-        top: -30%;
-        width: 14%;
+        left: 0%;
+        width: 42%;
+        align-self: flex-start;
     }
     .prizes_icon div{
         top: 59%;
         left: 0.4%;
     }
     .prizes_tag {
-        left: -9%;
-        font-size: 0.6rem;
-        width: 17%;
-        top: -42%;
+        left: 0%;
+        font-size: 0.7rem;
+        width: 71%;
+        top: 0%;
     }
     .partners {
         top: 63.6%;
@@ -1961,43 +1974,61 @@ body{
     .footer_grid {
         grid-template-columns: 1fr 1fr;
         gap: 4rem 1.81rem;
+        justify-items: center;
     }
     .footer_grid h2 {
         left: 0%;
         font-size: 2rem;
         width: 100%;
+        justify-self: center;
     }
     .footer_e_mail {
-        width: 100%;
-        left: 0%;
+        width: 71%;
         top: -46%;
+        justify-self: center;
+        gap: 1.88rem 1.2px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 2.1875rem) 6.25rem 3.245rem;
     }
     .name {
-        width: 60%;
-        left: 4%;
+        width: 85%;
+        justify-self: center;
+        position: relative;
+        left: 0%;
     }
     .company {
-        width: 60%;
-        left: -4.4%;
+        width: 85%;
+        justify-self: center;
+        position: relative;
+        left: 0%;
     }
     .message {
-        width: 77.4%;
-        left: 2%;
+        width: 65.4%;
+        justify-self: center;
+        position: relative;
+        left: 0%;
     }
     .telefon {
-        width: 60%;
-        left: 4.01%;
+        width: 85%;
+        justify-self: center;
+        position: relative;
+        left: 0%;
     }
     .e_mail {
-        width: 60%;
-        left: -4.4%;
+        width: 85%;
+        justify-self: center;
+        position: relative;
+        left: 0%;
     }
     .footer_e_mail button {
-        width: 70%;
+        width: 50%;
         top: -391%;
-        left: 24%;
         font-size: 0.7rem;
-        height: 130%;
+        height: 120%;
+        justify-self: center;
+        grid-column: 1 / -1;
+        position: relative;
+        left: 0%;
     }
     .footer_e_mail button:hover{
         border: 1px solid #D1A954;
@@ -2006,16 +2037,19 @@ body{
     }
     .e_mail_text {
         top: 52%;
-        width: 78%;
-        left: 2%;
-        font-size: 0.6rem;
-        justify-self: auto;
+        width: 71%;
+        left: 0%;
+        font-size: 0.5rem;
+        justify-self: center;
+        position: relative;
+        left: 0%;
     }
     .footer_contacts {
         top: 43%;
         left: 3%;
-        width: 94%;
+        width: 82%;
         font-size: 0.5rem;
+        justify-self: center;
     }
     .contact_p1 {
         width: 100%;
@@ -2024,11 +2058,15 @@ body{
         width: 100%;
     }
     .contact_p3 {
-        left: 77%;
+        left: 0%;
+        position: relative;
     }
     .contact_p4 {
-        left: 24%;
-        width: 76%;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        position: relative;
+        
     }
     .copy {
         top: 104%;
@@ -2037,14 +2075,19 @@ body{
         left: 1.5%;
     }
     .footer_line {
-        width: 100%;
+        width: 88%;
         top: 27%;
         position: absolute;
+        left: 6.5%;
     }
     .copy_p {
         font-size: 0.5rem;
-        width: 100%;
+        width: 90%;
         position: absolute;
         left: 0%;
+    }
+    .copy p {
+        position: relative;
+        left: 6.5%;
     }
 }
